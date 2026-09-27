@@ -1,0 +1,4 @@
+spark-submit   --packages org.apache.hadoop:hadoop-aws:3.5.0   test1.py
+
+path에 아래 폴더가 잡혀 있어야 함
+    C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\pyspark\bin
