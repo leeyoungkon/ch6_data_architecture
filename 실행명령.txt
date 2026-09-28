@@ -1,1 +1,4 @@
 c:\hadoop\bin 만들고 winutils.exe와 hadoop.dll 카피해서 붙여 넣기
+setx HADOOP_HOME C:\hadoop
+setx PATH "%PATH%;C:\hadoop\bin"
+cmd 창 다시 열기
