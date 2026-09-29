@@ -49,7 +49,7 @@ services:
 
 
   minio:
-    image: quay.io/minio/minio
+    image: quay.io/minio/aistor/minio:RELEASE.2026-03-26T21-24-40Z
     container_name: minio
 
     environment:
