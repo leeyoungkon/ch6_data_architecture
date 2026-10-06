@@ -6,7 +6,7 @@ os.environ["PATH"] += os.pathsep + r"C:\hadoop\bin"
 from pyspark.sql import SparkSession
 
 spark = (
-    SparkSession.builder
+   SparkSession.builder
     .appName("Orders ETL")
     .config(
         "spark.jars.packages",
@@ -39,7 +39,7 @@ print("Spark 시작")
 
 df = spark.read.csv(
     "orders.csv",
-    header=True,
+   header=True,
     inferSchema=True
 )
 
